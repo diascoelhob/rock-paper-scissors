@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
+    <div class="displays">
+        <div class="display">
+            <div class="contador" id="primeiro">0</div>
+            <img style="height: 100px;" src="images/homem.png" alt="homem">
+            <div class="resultado" id="homem">-</div>
+        </div>
+        <div class="display">
+            <div class="contador" id="segundo">0</div>
+            <img style="height: 100px;" src="images/robo.png" alt="computador">
+            <div class="resultado" id="computador">-</div>
+        </div>
+    </div>
     
+    <div class="botões">
+        <button type="button" class="btn-option" value="Pedra">Pedra</button>
+        <button type="button" class="btn-option" value="Papel">Papel</button>
+        <button type="button" class="btn-option" value="Tesoura">Tesoura</button>
+    </div>
 </body>
 </html>
